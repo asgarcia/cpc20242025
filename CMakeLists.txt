@@ -4,4 +4,6 @@ project(structura)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(structura main.cpp
-        pid.cpp)
+        pid.cpp
+        clasePID.cpp
+        clasePID.h)

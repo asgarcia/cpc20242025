@@ -13,7 +13,7 @@ void mostrarEstructura(const TPID p) {
 }
 
 // Función para modificar los valores de la estructura
-void modificarEstructura(TPID& p) {
+void modificarEstructura(TPID  &p) {
     std::cout << "Introduce el nuevo valor para Kp: ";
     std::cin >> p.kp;
     std::cout << "Introduce el nuevo valor para Ti: ";
